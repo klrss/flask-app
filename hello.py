@@ -17,6 +17,7 @@ bootstrap = Bootstrap(app)
 moment = Moment(app)
 migrate = Migrate(app, db)
 mail = Mail(app)
+
 # configuration
 basedir = os.path.abspath(os.path.dirname(__file__))
 app.config['SECRET_KEY'] = 'hard to guess string'
